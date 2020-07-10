@@ -29,6 +29,10 @@ a {
   color: inherit;
 }
 
+textarea {
+  resize: none;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -192,6 +196,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  &__close {
+    cursor: pointer;
+    outline: none;
+  }
   &__block {
     background-color: #fff;
     padding: 30px;
